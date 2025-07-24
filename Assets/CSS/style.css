@@ -8,6 +8,12 @@
      overflow-x: hidden;
  }
 
+ .nav-link:hover{
+    color:  #ffc107 !important;
+    
+    transition: 0.3s;
+ }
+
  .hero-section {
      position: relative;
      height: 85vh;
@@ -21,7 +27,7 @@
 
 
  }
-
+/* learn this  */
  .hero-section::before {
      content: '';
      background: rgba(0, 0, 0, 0.4);
@@ -34,4 +40,17 @@
      position: relative;
      z-index: 1;
      /* Bring content above overlay */
+ }
+
+ /* carousel */
+
+ .carousel-item img{
+    height: 400px;
+    object-fit: cover;
+    
+ }
+
+ .carousel-Size{
+    max-height: 400px;
+    max-width: 700px;
  }

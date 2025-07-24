@@ -33,9 +33,10 @@
           <li class="nav-item"><a href="index.html" class="nav-link fw-bold  text-warning active">Home</a></li>
           <li class="nav-item"><a href="#Typography" class="nav-link fw-bold text-white">Typography </a></li>
           <li class="nav-item"><a href="#Components" class="nav-link fw-bold text-white">Components </a></li>
-          <li class="nav-item"><a href="#" class="nav-link fw-bold text-white"> Tables</a></li>
-          <li class="nav-item"><a href="#" class="nav-link fw-bold text-white"> Forms</a></li>
-          <li class="nav-item"><a href="#" class="nav-link fw-bold text-white"> Carousel</a></li>
+          <li class="nav-item"><a href="#carousel" class="nav-link fw-bold text-white"> Carousel</a></li>
+          <li class="nav-item"><a href="#table" class="nav-link fw-bold text-white"> Tables</a></li>
+          <li class="nav-item"><a href="#form" class="nav-link fw-bold text-white"> Forms</a></li>
+          
         </ul>
 
       </div>
@@ -228,9 +229,159 @@
     
    </section>
   <!-- Buttons and Badges section ends here -->
+<!-- Components ends here! -->
+
+<!-- Carousel starts here -->
+
+<section id="carousel">
+
+  <div class="container bg-light my-5 ">
+    <p class="h3 text-info my-2">Carousel</p>
+    <div class="carousel slide carousel-Size shadow-lg my-2" id="Carousel" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./Assets/Images/css.png" alt="CSS" class="d-block w-100 carousel-img">
+        </div>
+
+        <div class="carousel-item ">
+          <img src="./Assets/Images/html.png" alt="HTML" class="d-block w-100 carousel-img" >
+        </div>
+
+        <div class="carousel-item ">
+          <img src="./Assets/Images/java.jpg" alt="JAVA" class="d-block w-100 carousel-img">
+        </div>
+
+        <div class="carousel-item ">
+          <img src="./Assets/Images/js.jpg" alt="JS" class="d-block w-100 carousel-img">
+        </div>
+
+        <!-- navigation arrows -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#Carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+
+          <button class="carousel-control-next" type="button" data-bs-target="#Carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+         <!-- navigation arrows -->
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- Table Starts Here -->
+<section id="table">
+<div class="container">
+  <p class="h3 text-info my-2">Table</p>
+
+  <div class="container bg-dark my-2 py-3 rounded">
+
+  <table class="table table-hover table-bordered align-middle text-center">
+    <thead>
+      <th class="bg-primary text-light">Name</th>
+      <th class="bg-primary text-light">Age</th>
+      <th rowspan="2" class="bg-primary text-light">Email</th>
+      <th class="bg-primary text-light">Address</th>
+      <th colspan="2" class="bg-primary text-light">PH.no</th>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>Yash</td>
+        <td>21</td>
+        <td>yashraymane@gmail.com</td>
+        <td>Hadapsar, Pune.</td>
+        <td>7276515288</td>
+        <td>7276515288</td>
+      </tr>
+
+      <tr>
+        <td>ash</td>
+        <td>25</td>
+        <td>ashmane@gmail.com</td>
+        <td>Mundhwa, Pune.</td>
+        <td>7566538477</td>
+        <td>7276515288</td>
+      </tr>
+      <tr>
+        <td>Rakesh</td>
+        <td>19</td>
+        <td>rakeshyt@gmail.com</td>
+        <td>Bhekrai nagar, Pune.</td>
+        <td>7475515288</td>
+        <td>7276515288</td>
+      </tr>
+
+      <tr>
+        <td>Aakash</td>
+        <td>22</td>
+        <td>aakashjadhav@gmail.com</td>
+        <td>Handewadi, Pune.</td>
+        <td>9989889844</td>
+        <td>7276515288</td>
+      </tr>
+    </tbody>
+  </table>
 
 
-<!-- Components Strats here! -->
+  <!-- second table -->
+
+  <table class="table table-hover table-bordered align-middle text-center">
+   
+    <tr>
+    <th class="bg-primary text-light">Name</th>
+     <td>Yash</td>
+     <td>ash</td>
+      <td>Rakesh</td>
+       <td>Aakash</td>
+    </tr>
+
+    <tr>
+         <th class="bg-primary text-light">Age</th>
+         <td>21</td>
+         <td>25</td>
+         <td>54</td>
+         <td>23</td>
+    </tr>
+    <tr>
+       <th rowspan="2" class="bg-primary text-light">Email</th>
+        <td>yashraymane@gmail.com</td>
+         <td>ashmane@gmail.com</td>
+          <td>rakeshyt@gmail.com</td>
+          <td>aakashjadhav@gmail.com</td>
+          <tr>
+            <td>dgdffssgd@gmail.com</td>
+            <td>dgdffssgd@gmail.com</td>
+            <td>dgdffssgd@gmail.com</td>
+            <td>dgdffssgd@gmail.com</td>
+          </tr>
+    </tr>
+
+    <tr>
+      <th class="bg-primary text-light">Address</th>
+      <td>Hadapsar, Pune.</td>
+      <td>Mundhwa, Pune.</td>
+      <td>Bhekrai nagar, Pune.</td>
+       <td>Handewadi, Pune.</td>
+    </tr>
+
+    <tr>
+        <th  class="bg-primary text-light">PH.no</th>
+         <td>7276515288</td>
+          <td>7566538477</td>
+          <td>7475515288</td>
+          <td>6435277366</td>
+    </tr>
+    
+  </table>
+</div>
+ 
+</div>
+
+</section>
+
+<!-- Table Ends Here -->
 
 
 
